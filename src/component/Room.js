@@ -20,7 +20,7 @@ function Room () {
       container: element,
       sharedLinks:[{
         name:"Copy Link",
-        url:`http://localhost:3000/room/${roomid}`
+        url:`https://deploygitvideocall.onrender.com/room/${roomid}`
       }],
       scenario: {
         mode: ZegoUIKitPrebuilt.GroupCall
